@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Similar Images</title>
+</head>
+<body>
+    <h1>Similar Images</h1>
+    <h2>Uploaded Image</h2>
+    <img src="{{ uploaded_image }}" alt="Uploaded Image" style="max-width: 400px;">
+    <h2>Similar Images from CIFAR-10</h2>
+    <div>
+        {% for image_path in similar_images %}
+            <img src="{{ image_path }}" alt="Similar Image" style="max-width: 200px;">
+        {% endfor %}
+    </div>
+</body>
+</html>
