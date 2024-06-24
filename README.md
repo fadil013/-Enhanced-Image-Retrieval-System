@@ -1,4 +1,5 @@
 Part 1:
+
 Q1:
 
 Overall, the code implements Locality Sensitive Hashing for approximate nearest neighbor search on the 
@@ -63,7 +64,9 @@ comprehensive exploration of the similarity landscape, catering to diverse use c
 characteristics prevalent in image datasets like CIFAR-10. Overall, this implementation leverages LSH's 
 efficiency and the versatility of similarity metrics to facilitate effective image retrieval in high-dimensional 
 spaces.
+
 Part 2:
+
 Q2:
 
 Overview:
